@@ -9,7 +9,7 @@ body{
     display:flex;
     justify-content: center;
     align-items:center;
-    background-image:url("./img/IMG_20191103_150243_652.jpg");
+    background-image:url("IMG_20191103_150243_652.jpg");
     background-size:cover ;
 }
 
