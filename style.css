@@ -5,11 +5,12 @@ html{
 
 body{
     height:100%;
+    margin:0;
     background-color:blueviolet;
     display:flex;
     justify-content: center;
     align-items:center;
-    background-image:url("./IMG_20191103_150243_652.jpg");
+    background-image:url("/IMG_20191103_150243_652.jpg");
     background-size:cover ;
 }
 
