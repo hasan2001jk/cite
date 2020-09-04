@@ -1,30 +1,91 @@
-#header{
-	margin-bottom:32px;
-	text-align:center;
+html{
+    height:100%;
+    font-family: 'Times New Roman', Times, serif;
 }
-p{
-	padding-bottom:12px;
+
+body{
+    height:100%;
+    background-color:blueviolet;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-image:url("./img/IMG_20191103_150243_652.jpg");
+    background-size:cover ;
 }
-h3{
-	font-weight:400;
+
+.card{
+    background-color:white;
+    width:650px;
+    padding:25px;
+    display:flex;
+    
 }
-h1{
-	font-size:36px;
-	padding-bottom: 0px;
-	font-weight:400;
+
+img{
+    width:300px;
 }
-h2{
-	font-size:32px;
-	border-bottom:1px solid grey;
-	padding-bottom:8px;
-	font-weight:400;
+
+.card-img{
+    margin-right:20px;
+    /* background-color:red; */
+    
 }
-#main{
-	text-align:justify;
-	margin-right:200px;
-	margin-left:200px;
+
+.card-green{
+    
+    background-color: green;
+    display:inline-block;
+    padding:5px;
+    color:#fff;
+    font-family: 'Syne', sans-serif;
+
 }
-#footer{
-	margin-top:64px;
-	text-align:center;
+
+.card-text{
+    text-align: left;
+    /* background-color:grey; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+
+.title{
+    margin-top:20px;
+    margin-bottom:0;
+    font-weight:300px;
+    font-size:25px;
+    
+
+}
+
+.subtitle{
+    margin-top:10px;
+    margin-bottom:0;
+    color:grey;
+    font-weight: 400px;
+    
+}
+
+.card-text p {
+    font-size:15px;
+    font-weight:400;
+    margin-top:10px;
+    margin-bottom: 10px;
+    font-family: font-family: 'Montserrat', sans-serif;;
+}
+
+.button{
+    background-color:grey;
+    padding:3px 5px;
+    color:white;
+    text-decoration: none;
+
+}
+
+.btn-vk{
+    background-color:#45668e;
+}
+
+.btn-inst{
+    background-color:#fd1d1d;
 }
