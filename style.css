@@ -5,22 +5,68 @@ html{
 
 body{
     height:100%;
-    margin:0;
     background-color:blueviolet;
     display:flex;
+    padding:25px;
     justify-content: center;
     align-items:center;
     background-image:url("./IMG_20191103_150243_652.jpg");
     background-size:cover ;
+    margin:0;
 }
+
+
 
 .card{
     background-color:white;
     width:650px;
     padding:25px;
     display:flex;
+    flex-shrink: 0;
     
 }
+
+
+
+@media (max-width:800px){
+    body{
+        background-color:green;
+    }
+
+}
+
+@media (max-width:750px){
+   .card{
+    width:100%;
+   }
+}
+@media(max-width:543px){
+    .card{
+        flex-direction: column;
+    }
+}
+
+@media(max-width:543px){
+    .card-img{
+        margin-bottom:30px;
+        width:auto;
+        max-width:250px;
+        margin-right:0;
+    }
+}
+@media (max-height:800px){
+    body{
+        height:auto;
+        min-height: 100%;
+    }
+
+    html{
+        height: auto;
+        min-height: 100%;
+    }
+
+}
+
 
 img{
     width:300px;
@@ -90,3 +136,5 @@ img{
 .btn-inst{
     background-color:#fd1d1d;
 }
+
+
